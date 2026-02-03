@@ -167,7 +167,7 @@ const Contact = () => {
                   <div className="flex gap-3">
                     {[
                       { href: "https://instagram.com/snyd.in", label: "Instagram" },
-                      { href: "https://linkedin.com/company/snydtech", label: "LinkedIn" },
+                      { href: "https://www.linkedin.com/in/snyd-tech-915b26261/", label: "LinkedIn" },
                       { href: "https://wa.me/+919003897534", label: "WhatsApp" },
                     ].map((social) => (
                       <a

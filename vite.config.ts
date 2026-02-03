@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
 
   // IMPORTANT: custom domain on GitHub Pages
-  base: "/snyd/",
+  base: "/",
 
   resolve: {
     alias: {

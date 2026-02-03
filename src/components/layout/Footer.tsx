@@ -35,8 +35,8 @@ export const Footer = () => {
             <div className="flex gap-3">
               {[
                 { href: "https://instagram.com/snyd.in", label: "IG" },
-                { href: "https://linkedin.com/company/snydtech", label: "IN" },
-                { href: "https://wa.me/914520000000", label: "WA" },
+                { href: "https://www.linkedin.com/in/snyd-tech-915b26261/", label: "IN" },
+                { href: "https://wa.me/+919003897534", label: "WA" },
               ].map((social) => (
                 <a
                   key={social.label}
