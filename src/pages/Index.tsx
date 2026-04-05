@@ -106,9 +106,9 @@ const Index = () => {
                 variant="outline" 
                 className="text-base px-8 h-12 border-white/40 text-black hover:bg-white/90 hover:border-white/80 bg-white/95"
               >
-                <Link to="/drones">
+                <Link to="/adam">
                   <Play className="mr-2 w-4 h-4" />
-                  Drone Solutions
+                  Explore ADAM
                 </Link>
               </Button>
             </motion.div>

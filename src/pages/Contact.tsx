@@ -27,6 +27,7 @@ import {
 } from "lucide-react";
 
 const courses = [
+  "ADAM",
   "Python Programming",
   "Java Development",
   "AI & Machine Learning",
@@ -134,7 +135,7 @@ const Contact = () => {
                     {
                       icon: Phone,
                       title: "Phone",
-                      content: "+91 90038 97534"
+                      content: "+91 97459 73308"
                     },
                     {
                       icon: Clock,
@@ -144,7 +145,7 @@ const Contact = () => {
                     {
                       icon: Mail,
                       title: "Email",
-                      content: "info@snyd.in"
+                      content: "contact@snyd.in"
                     },
                   ].map((item, idx) => (
                     <div key={idx} className="flex gap-4">
@@ -290,17 +291,16 @@ const Contact = () => {
             <h3 className="font-heading font-semibold">Visit Our Center</h3>
           </ScrollReveal>
           <ScrollReveal>
-            <PremiumCard className="aspect-[21/9] flex items-center justify-center">
-              <div className="text-center p-8">
-                <div className="w-16 h-16 rounded-2xl bg-gradient-primary flex items-center justify-center mx-auto mb-4">
-                  <MapPin className="w-8 h-8 text-white" />
-                </div>
-                <h4 className="font-heading font-semibold text-lg mb-2">SNYD TECH</h4>
-                <p className="text-muted-foreground text-sm">
-                  76/2, Puttu Thoppu Main Rd, Ponnagaram,<br />
-                  Madurai, Tamil Nadu 625016
-                </p>
-              </div>
+            <PremiumCard className="overflow-hidden">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.0580078745143!2d78.11113597479263!3d9.929127190172677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00cf4d1cc2fe1d%3A0x95b5ea5606b10ac6!2sSNYD%20Tech!5e0!3m2!1sen!2sin!4v1770138904977!5m2!1sen!2sin" 
+                width="100%" 
+                height="400" 
+                style={{ border: 0 }} 
+                allowFullScreen 
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
             </PremiumCard>
           </ScrollReveal>
         </div>

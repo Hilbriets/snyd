@@ -110,10 +110,10 @@ export const Footer = () => {
               <div className="flex gap-3">
                 <Mail className="w-4 h-4 text-primary shrink-0" />
                 <a 
-                  href="mailto:info@snyd.in" 
+                  href="mailto:contact@snyd.in" 
                   className="text-white/60 text-sm hover:text-white transition-colors"
                 >
-                  info@snyd.in
+                  contact@snyd.in
                 </a>
               </div>
             </div>

@@ -20,8 +20,8 @@ import {
 
 const companyDetails = [
   { icon: Calendar, value: "2022", label: "Founded" },
-  { icon: Building2, value: "Education", label: "Industry" },
-  { icon: Users, value: "11-50", label: "Team Size" },
+  { icon: Building2, value: "Technology", label: "Industry" },
+  { icon: Users, value: "25-29", label: "Team Size" },
   { icon: MapPin, value: "Madurai", label: "Location" },
   { icon: Award, value: "Tech & Drones", label: "Focus" },
 ];
@@ -31,7 +31,7 @@ const About = () => {
     <Layout>
       <PageBanner
         title="About SNYD TECH"
-        subtitle="Pioneering drone technology and next-generation tech education in Tamil Nadu."
+        subtitle="Pioneering drone technology and next-generation tech education"
         label="Our Story"
         labelIcon={Rocket}
       />
